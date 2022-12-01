@@ -1,6 +1,10 @@
 package com.company;
 
 public class Doll {
+    //Необходимо создать:
+    //методы без параметров и с аргументами
+    //методы возвращающие значение и нет(void)
+    //конструкторы без аргументов и с аргументами
     public static String sayPapa;
     public static Doll Masha;
     public static Doll newDoll;

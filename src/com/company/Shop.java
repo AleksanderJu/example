@@ -11,7 +11,7 @@ public class Shop {
         System.out.println("Мы создали куклу с именем-"+ Masha.name+","+"Цвет-"+ Masha.color+","+"Размер-"+Masha.size+".");
         System.out.println("Mama");
         sayMaMa();
-        System.out.println(DollKatja.sayPapa());
+        System.out.println(Doll.sayPapa());
         String Papa= Doll.sayPapa();
         System.out.println(Papa);
 
