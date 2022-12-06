@@ -91,7 +91,7 @@ public class ArrayHomeWork {
         int sum = 0;
         ArrayList<Number> evenNumber = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {
-            int number = ((int) (Math.random() * 10));
+            int number = ((int) (Math.random() * 100));
             array[i] = number;
             sum += number;
             if (number < min) {
@@ -100,7 +100,7 @@ public class ArrayHomeWork {
             if (number > max) {
                 max = number;
             }
-            if (number % 2 == 0) {
+            if (number % 2 == 0 && number !=0) {
                 evenNumber.add(number);
             }
             System.out.println(array[i]);
