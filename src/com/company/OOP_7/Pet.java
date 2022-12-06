@@ -1,4 +1,4 @@
-package OOP_7;
+package com.company.OOP_7;
 
 public class Pet {
     //Создайте класс родитель Pet.

@@ -1,4 +1,4 @@
-package OOP_7;
+package com.company.OOP_7;
 
 //В методе main создайте объекты Cat и Dog.
 //Вызовите их методы sayMeow и sayBark.
